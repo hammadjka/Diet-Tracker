@@ -1,0 +1,36 @@
+Start:
+1. The user runs the program and the gui main screen appears.
+
+Viewing items:
+1. The scroll pane will appear blank on a fresh start until the user clicks on one of the buttons mentioned below.
+2. To view the list of all items(expired or not expired) the user clicks on "All items".
+3. To view the list of all expired items the user clicks on "Expired items".
+4. To view the list of all non-expired items the user clicks on "Non-expired items".
+5. To view the list of all expired items the user clicks on "Items expiring in 7 days".
+6. When any of the above mentioned button is clicked the main scroll pane is updated with requested list of items.
+
+Adding a new item:
+1. To add a new item the user clicks on "Add item".
+2. A new dialog screen pops up asking for the details of the item.
+    2.1 The dialog screen is updated depending on the type of consumable selected (Food item or Drink item).
+3. Once the details have been entered the user clicks on "Add new item"
+4. If the user has entered wrong information such as: blank name, price and/or weight/volume, a popup message occurs
+   telling the user that the inputs are invalid. The user can try again by clicking "OK".
+5. If the details are valid a new item is added and the main screen outputs the updated list of items.
+6. The dialog screen remains open to make multiple addition of items easy, without needing to clcik on "Add item" everytime.
+7. The user can click on "Cancel" or the dialog cross button to cancel the process at any time.
+
+Removing an item:
+1. To remove an item the user clicks on "Remove item"
+3. The main screen updates to show the list of all items to make it easy for the user to choose which item needs to be removed.
+2. A new dialog screen pops up asking for the index of the item.
+3. Once the index has been entered the user clicks on "Remove"
+4. If the user enters an invalid or out of bounds index, a popup message appears telling the user that the input is invalid,
+   the user can try again by clicking "OK".
+5. If the index is valid the item is removed and the main screen outputs the updated list of items.
+6. The dialog screen remains open to make multiple removal of items easy, without needing to clcik on "Remove item" everytime.
+7. The user can click on the dialog cross button to cancel the process at any time.
+
+Closing:
+1. To close the application the user clicks on the cross button on the main window frame.
+2. All data is already saved and will still exist when the app is ran again.

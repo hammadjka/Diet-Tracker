@@ -1,0 +1,27 @@
+addFood command
+curl -H "Content-Type: application/json" -X POST -d "{\"name\": \"1\", \"notes\": \"1\", \"price\": 1.0, \"weight\":1.0,\"type\":1,\"expirydate\":\"2021-11-26T23:59\"}" localhost:8080/addFood
+
+addDrink command
+curl -H "Content-Type: application/json" -X POST -d "{\"name\": \"1\", \"notes\": \"1\", \"price\": 1.0, \"weight\":1.0,\"type\":2,\"expirydate\":\"2021-11-26T23:59\"}" localhost:8080/addDrink
+
+removeItem command
+curl -X POST localhost:8080/removeItem/index of item to be removed
+
+ping command
+curl -X GET localhost:8080/ping
+
+listAll command
+curl -X GET localhost:8080/listAll
+
+listExpired command
+curl -X GET localhost:8080/listExpired
+
+listNonExpired command
+curl -X GET localhost:8080/listNonExpired
+
+listExpiringIn7Days command
+curl -X GET localhost:8080/listExpiringIn7Days
+
+exit command
+curl -X GET localhost:8080/exit
+
